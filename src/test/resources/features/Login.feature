@@ -19,4 +19,16 @@ Feature: Login to HRM Application
     When User Enter invalid credentials
     And User clicks the sign in button
     Then User should be unsuccessfull in login
+    
+    Scenario: Login with incorrect credentials
+    Given User Launch the application
+    When User Enter invalid credentials
+    And User clicks the sign in button
+    Then User should be unsuccessfull in login
+    
+    Scenario: Login with incorrect credentials
+    Given User Launch the application
+    When User Enter invalid credentials
+    And User clicks the sign in button
+    Then User should be unsuccessfull in login
  
